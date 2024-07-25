@@ -43,7 +43,7 @@ const Test = () => {
 
   const handleSubmit = async () => {
     try {
-      const res = await fetch('http://localhost:5000/analyze', {
+      const res = await fetch('flaskapp-production-5ced.up.railway.app/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
